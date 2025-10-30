@@ -14,7 +14,6 @@ class SpaceX{
     launchpad(id){
         return fetch(`${this.baseUrl}launchpads/${id}`)
             .then(response=>response.json())
-
     }
 
 }
